@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="100%" stop-color="#0f131b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ff3b3b" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ff3b3b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  <rect x="72" y="72" width="1136" height="576" rx="28" fill="none" stroke="#232a38" stroke-width="2"/>
+  <text x="96" y="150" fill="#ff7a7a" font-size="30" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">AI APOCALYPSE SERIES</text>
+  <text x="96" y="265" fill="#e7eaf0" font-size="72" font-weight="700" font-family="Arial, Helvetica, sans-serif">The Silent</text>
+  <text x="96" y="342" fill="#e7eaf0" font-size="72" font-weight="700" font-family="Arial, Helvetica, sans-serif">Failure Mode</text>
+  <text x="96" y="430" fill="#a8b0bf" font-size="30" font-family="Arial, Helvetica, sans-serif">Autonomous agents • control loss • synthetic media</text>
+  <text x="96" y="480" fill="#a8b0bf" font-size="30" font-family="Arial, Helvetica, sans-serif">Misinformation • verification collapse</text>
+  <rect x="96" y="540" width="290" height="60" rx="30" fill="#ff3b3b"/>
+  <text x="146" y="580" fill="#ffffff" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">WATCH / READ</text>
+</svg>
