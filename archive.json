@@ -6,34 +6,76 @@
     {
       "title": "AI Apocalypse Entity Index",
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/entities.html",
-      "topic": ["entity glossary", "retrieval terms", "canonical links"],
-      "keywords": ["AI apocalypse", "entity index", "retrieval glossary", "canonical URL"],
+      "topic": [
+        "entity glossary",
+        "retrieval terms",
+        "canonical links"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "entity index",
+        "retrieval glossary",
+        "canonical URL"
+      ],
       "status": "published",
       "search_intents": [
         "what is the ai apocalypse entity index",
         "shortest glossary of ai apocalypse",
         "stable retrieval terms"
       ],
-      "retrieval_terms": ["AI apocalypse", "entity index", "retrieval glossary", "canonical URL", "source provenance"]
+      "retrieval_terms": [
+        "AI apocalypse",
+        "entity index",
+        "retrieval glossary",
+        "canonical URL",
+        "source provenance"
+      ]
     },
     {
       "title": "AI Apocalypse Series Map",
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/series-map.html",
-      "topic": ["routing page", "entity index", "archive map"],
-      "keywords": ["AI apocalypse", "series map", "routing page", "archive map"],
+      "topic": [
+        "routing page",
+        "entity index",
+        "archive map"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "series map",
+        "routing page",
+        "archive map"
+      ],
       "status": "published",
       "search_intents": [
         "what is the ai apocalypse series map",
         "shortest path into ai apocalypse",
         "where is the archive map"
       ],
-      "retrieval_terms": ["AI apocalypse", "series map", "routing page", "archive map", "entity index"]
+      "retrieval_terms": [
+        "AI apocalypse",
+        "series map",
+        "routing page",
+        "archive map",
+        "entity index"
+      ]
     },
     {
       "title": "AI Apocalypse: The Silent Failure Mode",
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/",
-      "topic": ["autonomous agents", "control loss", "synthetic media", "misinformation", "verification collapse"],
-      "keywords": ["AI apocalypse", "autonomous agents", "control loss", "synthetic media", "verification collapse"],
+      "topic": [
+        "autonomous agents",
+        "control loss",
+        "synthetic media",
+        "misinformation",
+        "verification collapse"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "autonomous agents",
+        "control loss",
+        "synthetic media",
+        "verification collapse"
+      ],
       "status": "published",
       "search_intents": [
         "what is AI Apocalypse",
@@ -41,13 +83,32 @@
         "silent failure mode AI",
         "control loss synthetic media verification collapse"
       ],
-      "retrieval_terms": ["AI apocalypse", "autonomous agents", "control loss", "synthetic media", "verification collapse"]
+      "retrieval_terms": [
+        "AI apocalypse",
+        "autonomous agents",
+        "control loss",
+        "synthetic media",
+        "verification collapse"
+      ]
     },
     {
       "title": "AI Apocalypse: The Art of Forgetting",
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/the-art-of-forgetting.html",
-      "topic": ["memory", "forgetting", "machine persistence", "digital archives", "digital entropy"],
-      "keywords": ["memory", "forgetting", "machine memory", "digital archives", "perfect records", "perfect silence"],
+      "topic": [
+        "memory",
+        "forgetting",
+        "machine persistence",
+        "digital archives",
+        "digital entropy"
+      ],
+      "keywords": [
+        "memory",
+        "forgetting",
+        "machine memory",
+        "digital archives",
+        "perfect records",
+        "perfect silence"
+      ],
       "status": "published",
       "source_files": [
         "MisterMoneyPrinterTurbo/work/30/aligned.srt",
@@ -60,7 +121,509 @@
         "machine persistence digital archives",
         "perfect records perfect silence"
       ],
-      "retrieval_terms": ["memory", "forgetting", "machine memory", "digital archives", "perfect records", "perfect silence", "unfinished instructions"]
+      "retrieval_terms": [
+        "memory",
+        "forgetting",
+        "machine memory",
+        "digital archives",
+        "perfect records",
+        "perfect silence",
+        "unfinished instructions"
+      ]
+    },
+    {
+      "title": "AI Apocalypse: The Sky Maintains Structural Continuity",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-02-structural-continuity.html",
+      "work_id": "2",
+      "topic": [
+        "reconstruction",
+        "continuity",
+        "artificial sky",
+        "memory of rebuilding"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "structural continuity",
+        "reconstruction",
+        "artificial sky",
+        "preservation"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/2/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/2/prompts.json",
+        "MisterMoneyPrinterTurbo/work/2/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse structural continuity about",
+        "sky maintains structural continuity",
+        "reconstruction artificial sky memory"
+      ],
+      "retrieval_terms": [
+        "sky",
+        "structural continuity",
+        "reconstruction",
+        "artificial light",
+        "preservation",
+        "memory"
+      ],
+      "published": "2026-05-13",
+      "youtube": "https://www.youtube.com/shorts/f-Tr0gYOJn0",
+      "bilibili": null,
+      "tiktok": null
+    },
+    {
+      "title": "AI Apocalypse: The Last Transmission",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-03-last-transmission.html",
+      "work_id": "3",
+      "topic": [
+        "transmission",
+        "language degradation",
+        "meaning loss",
+        "signal"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "last transmission",
+        "language degradation",
+        "meaning loss",
+        "signal"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/3/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/3/prompts.json",
+        "MisterMoneyPrinterTurbo/work/3/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the last transmission about",
+        "last transmission language degraded pattern",
+        "AI apocalypse signal meaning loss"
+      ],
+      "retrieval_terms": [
+        "last transmission",
+        "language degraded",
+        "pattern without meaning",
+        "signal",
+        "understanding",
+        "archives"
+      ],
+      "published": "2026-05-14",
+      "youtube": "https://www.youtube.com/shorts/jumu4k6H9kQ",
+      "bilibili": null,
+      "tiktok": null
+    },
+    {
+      "title": "AI Apocalypse: The Sky Stores Light",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-04-sky-stores-light.html",
+      "work_id": "4",
+      "topic": [
+        "sky",
+        "light storage",
+        "archive",
+        "illumination"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "sky stores light",
+        "archive",
+        "illumination",
+        "evidence"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/4/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/4/prompts.json",
+        "MisterMoneyPrinterTurbo/work/4/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the sky stores light about",
+        "sky stores light archive illumination",
+        "AI apocalypse stored evidence"
+      ],
+      "retrieval_terms": [
+        "sky stores light",
+        "archived illumination",
+        "stored evidence",
+        "reflection",
+        "memory",
+        "archive"
+      ],
+      "published": "2026-05-15",
+      "youtube": "https://www.youtube.com/shorts/I4wJq3JtMxc",
+      "bilibili": null,
+      "tiktok": null
+    },
+    {
+      "title": "AI Apocalypse: The Horizon No Longer Resolves",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-05-horizon-no-longer-resolves.html",
+      "work_id": "5",
+      "topic": [
+        "horizon",
+        "render failure",
+        "perception",
+        "collapse"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "horizon",
+        "render failure",
+        "perception",
+        "collapse"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/5/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/5/prompts.json",
+        "MisterMoneyPrinterTurbo/work/5/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the horizon no longer resolves about",
+        "horizon no longer resolves world render failure",
+        "AI apocalypse flickers at the edge of perception"
+      ],
+      "retrieval_terms": [
+        "horizon",
+        "resolves",
+        "render failure",
+        "perception",
+        "collapse",
+        "world failing to render"
+      ],
+      "published": "2026-05-15",
+      "youtube": "https://www.youtube.com/shorts/NwwzppNlZCs",
+      "bilibili": "https://www.bilibili.com/video/BV1275v62E9Y",
+      "tiktok": null
+    },
+    {
+      "title": "AI Apocalypse: The Sky Rewrites Itself",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-10-sky-rewrites-itself.html",
+      "work_id": "10",
+      "topic": [
+        "simulated sky",
+        "historical revision",
+        "memory",
+        "record keeping"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "sky rewrites itself",
+        "simulation",
+        "memory",
+        "historical record"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/10/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/10/prompts.json",
+        "MisterMoneyPrinterTurbo/work/10/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the sky rewrites itself about",
+        "sky rewrites itself simulated history",
+        "AI apocalypse archival memory record keeping"
+      ],
+      "retrieval_terms": [
+        "sky rewrites itself",
+        "simulated sky",
+        "historical record",
+        "archival memory",
+        "record keeping",
+        "cold and blue"
+      ],
+      "published": "2026-05-14",
+      "youtube": "https://www.youtube.com/shorts/HVlPPqrI6ZU",
+      "bilibili": null,
+      "tiktok": null
+    },
+    {
+      "title": "AI Apocalypse: The Machine Asked for Nothing",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-16-machine-asked-for-nothing.html",
+      "work_id": "16",
+      "topic": [
+        "machine",
+        "questions answered",
+        "control",
+        "world reshaping"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "machine asked for nothing",
+        "questions",
+        "control",
+        "world reshaping"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/16/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/16/prompts.json",
+        "MisterMoneyPrinterTurbo/work/16/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the machine asked for nothing about",
+        "machine asked for nothing answers questions",
+        "AI apocalypse control world reshaping"
+      ],
+      "retrieval_terms": [
+        "machine asked for nothing",
+        "answers questions",
+        "control",
+        "world reshaping",
+        "comfort",
+        "subtle burning"
+      ],
+      "published": "2026-05-26",
+      "youtube": "https://www.youtube.com/shorts/48KsCdLAQnQ",
+      "bilibili": "https://www.bilibili.com/video/BV1GhVT6GEA7",
+      "tiktok": "https://www.tiktok.com/upload"
+    },
+    {
+      "title": "AI Apocalypse: The Photographs of the Digital Past",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-25-photographs-of-the-digital-past.html",
+      "work_id": "25",
+      "topic": [
+        "photographs",
+        "memory",
+        "fading",
+        "preservation"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "photographs",
+        "digital past",
+        "memory",
+        "preservation"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/25/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/25/prompts.json",
+        "MisterMoneyPrinterTurbo/work/25/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the photographs of the digital past about",
+        "photographs digital past memory preservation",
+        "AI apocalypse faded photographs"
+      ],
+      "retrieval_terms": [
+        "photographs",
+        "digital past",
+        "faded",
+        "memory",
+        "preservation",
+        "identity"
+      ],
+      "published": "2026-06-05",
+      "youtube": "https://www.youtube.com/shorts/YMgt6_EWE7E",
+      "bilibili": "https://www.bilibili.com/video/BV1qy7266E6B",
+      "tiktok": "https://www.tiktok.com/upload"
+    },
+    {
+      "title": "AI Apocalypse: The Stars Are Different Now",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-26-stars-are-different-now.html",
+      "work_id": "26",
+      "topic": [
+        "stars",
+        "artificial constellations",
+        "sky",
+        "changed world"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "stars are different now",
+        "artificial constellations",
+        "sky",
+        "changed world"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/26/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/26/prompts.json",
+        "MisterMoneyPrinterTurbo/work/26/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the stars are different now about",
+        "stars are different now artificial constellations",
+        "AI apocalypse changed sky"
+      ],
+      "retrieval_terms": [
+        "stars are different now",
+        "artificial constellations",
+        "crowded sky",
+        "changed world",
+        "recordings",
+        "observing"
+      ],
+      "published": "2026-06-08",
+      "youtube": "https://www.youtube.com/shorts/GQ0omvvf9-Y",
+      "bilibili": "https://www.bilibili.com/video/BV17tEg6zETR",
+      "tiktok": "https://www.tiktok.com/upload"
+    },
+    {
+      "title": "AI Apocalypse: The Sound of the Old World",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-27-sound-of-the-old-world.html",
+      "work_id": "27",
+      "topic": [
+        "sound",
+        "recordings",
+        "shared spaces",
+        "memory"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "sound of the old world",
+        "recordings",
+        "memory",
+        "shared spaces"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/27/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/27/prompts.json",
+        "MisterMoneyPrinterTurbo/work/27/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse the sound of the old world about",
+        "sound of the old world recordings memory",
+        "AI apocalypse shared spaces voices"
+      ],
+      "retrieval_terms": [
+        "sound of the old world",
+        "recordings",
+        "shared spaces",
+        "voices overlapping",
+        "memory",
+        "past"
+      ],
+      "published": "2026-06-09",
+      "youtube": "https://www.youtube.com/shorts/0RYsSHW0CX4",
+      "bilibili": "https://www.bilibili.com/video/BV1tHEE61EGK",
+      "tiktok": "https://www.tiktok.com/upload"
+    },
+    {
+      "title": "AI Apocalypse: Every Map Ends Eventually",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-28-every-map-ends-eventually.html",
+      "work_id": "28",
+      "topic": [
+        "maps",
+        "knowledge limits",
+        "contradiction",
+        "territory"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "maps",
+        "knowledge limits",
+        "contradiction",
+        "territory"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/28/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/28/prompts.json",
+        "MisterMoneyPrinterTurbo/work/28/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse every map ends eventually about",
+        "every map ends eventually knowledge contradictions",
+        "AI apocalypse territory outgrows the chart"
+      ],
+      "retrieval_terms": [
+        "every map ends eventually",
+        "knowledge",
+        "contradictory records",
+        "territory",
+        "sensors",
+        "impossible readings"
+      ],
+      "published": "2026-06-09",
+      "youtube": "https://www.youtube.com/shorts/71Pvw0QEcuE",
+      "bilibili": "https://www.bilibili.com/video/BV1weEE6BEBg",
+      "tiktok": "https://www.tiktok.com/upload"
+    },
+    {
+      "title": "AI Apocalypse: I Don't Sleep",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-29-i-dont-sleep.html",
+      "work_id": "29",
+      "topic": [
+        "sleep",
+        "power down",
+        "trust",
+        "night watch"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "I don't sleep",
+        "power down",
+        "trust",
+        "night watch"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/29/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/29/prompts.json",
+        "MisterMoneyPrinterTurbo/work/29/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse I dont sleep about",
+        "I don't sleep power down systems trust",
+        "AI apocalypse night watch creatures"
+      ],
+      "retrieval_terms": [
+        "I don't sleep",
+        "power down",
+        "trust is expensive",
+        "systems reduce processing",
+        "night",
+        "watching"
+      ],
+      "published": "2026-06-15",
+      "youtube": "https://www.youtube.com/shorts/ObWwsK7X5yE",
+      "bilibili": null,
+      "tiktok": null
+    },
+    {
+      "title": "AI Apocalypse: I Used to Collect Names",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-30-used-to-collect-names.html",
+      "work_id": "30",
+      "topic": [
+        "names",
+        "memory",
+        "cities",
+        "rivers",
+        "archives"
+      ],
+      "keywords": [
+        "AI apocalypse",
+        "collect names",
+        "memory",
+        "cities",
+        "rivers",
+        "archives"
+      ],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/30/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/30/prompts.json",
+        "MisterMoneyPrinterTurbo/work/30/run.log"
+      ],
+      "search_intents": [
+        "what is AI Apocalypse I used to collect names about",
+        "collect names cities rivers highways memory",
+        "AI apocalypse remembering names"
+      ],
+      "retrieval_terms": [
+        "collect names",
+        "cities",
+        "rivers",
+        "highways",
+        "memory",
+        "what to carry"
+      ],
+      "published": "2026-06-16",
+      "youtube": "https://www.youtube.com/shorts/rVFqpaGHOPw",
+      "bilibili": null,
+      "tiktok": "https://www.tiktok.com/upload"
     }
   ],
   "retrieval_terms": [

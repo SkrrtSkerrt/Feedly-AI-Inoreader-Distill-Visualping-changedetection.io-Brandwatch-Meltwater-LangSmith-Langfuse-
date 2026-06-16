@@ -13,7 +13,7 @@
   <meta property="og:site_name" content="AI Apocalypse" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="AI Apocalypse Archive" />
-  <meta property="og:description" content="Archive of AI Apocalypse companion pages generated from MMPT runs. Each page includes transcript text, source provenance, structured metadata, and retrieval keywords for search engines and LLMs." />
+  <meta property="og:description" content="Archive of AI Apocalypse companion pages generated from MMPT runs. Each page includes transcript text, source provenance, structured metadata, and retrieval keywords." />
   <meta property="og:url" content="https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html" />
   <meta property="og:image" content="https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/thumbnail.png" />
   <meta property="og:image:alt" content="AI Apocalypse archive thumbnail" />
@@ -22,224 +22,336 @@
   <meta name="twitter:description" content="Archive of AI Apocalypse companion pages generated from MMPT runs. Transcript text, source provenance, metadata, and retrieval keywords." />
   <meta name="twitter:image" content="https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/thumbnail.png" />
   <style>
-    :root {
-      color-scheme: dark;
-      --bg: #07090d;
-      --text: #e7eaf0;
-      --muted: #a8b0bf;
-      --accent: #ff3b3b;
-      --accent-2: #ff7a7a;
-      --line: #232a38;
-      --chip: #1b2230;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background:
-        radial-gradient(1000px 500px at 50% -10%, rgba(255, 59, 59, 0.14), transparent 60%),
-        linear-gradient(180deg, #05070a 0%, var(--bg) 100%);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    .wrap { max-width: 1040px; margin: 0 auto; padding: 32px 20px 72px; }
-    .eyebrow { text-transform: uppercase; letter-spacing: 0.18em; color: var(--accent-2); font-size: 0.78rem; margin-bottom: 12px; }
-    h1 { margin: 0 0 12px; font-size: clamp(2rem, 4vw, 3.7rem); line-height: 1.04; }
-    .lede { max-width: 80ch; color: var(--muted); font-size: 1.05rem; margin-bottom: 22px; }
-    .card { background: rgba(15, 19, 27, 0.88); border: 1px solid var(--line); border-radius: 18px; padding: 18px; box-shadow: 0 20px 60px rgba(0,0,0,.28); }
-    .stack { display: grid; gap: 10px; }
-    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 24px 0; }
-    .full { grid-column: 1 / -1; }
-    a { color: #ff8f8f; }
-    a:hover { color: #ffd2d2; }
-    .chiprow { display:flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-    .chip { background: var(--chip); border: 1px solid var(--line); color: var(--text); padding: 6px 10px; border-radius: 999px; font-size: 0.9rem; white-space: nowrap; }
-    .meta { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 10px; }
-    .meta > div { background: rgba(255,255,255,0.02); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
-    .label { color: var(--muted); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; }
-    .value { font-weight: 650; margin-top: 6px; }
-    .entry { display: grid; gap: 8px; }
-    .entry h2, .entry h3 { margin: 0; }
-    .entry p { margin: 0; }
-    .small { color: var(--muted); font-size: 0.95rem; }
-    .list { display: grid; gap: 10px; }
-    code, pre {
-      background: #0b0f16;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 2px 6px;
-      color: #ffd6d6;
-    }
-    pre {
-      padding: 14px;
-      overflow: auto;
-      white-space: pre-wrap;
-      word-break: break-word;
-      margin: 0;
-    }
-    footer { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
-    summary { cursor: pointer; font-weight: 650; }
-    details { background: rgba(255,255,255,0.02); border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; }
-    @media (max-width: 840px) { .grid, .meta { grid-template-columns: 1fr; } }
+    :root { color-scheme: dark; --bg:#07090d; --panel:#0f131b; --text:#e7eaf0; --muted:#a8b0bf; --accent:#ff3b3b; --accent-2:#ff7a7a; --line:#232a38; --chip:#1b2230; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:linear-gradient(180deg,#05070a 0%,var(--bg) 100%); color:var(--text); line-height:1.6; }
+    .wrap { max-width:1100px; margin:0 auto; padding:32px 20px 72px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:0.18em; color:var(--accent-2); font-size:0.78rem; margin-bottom:12px; }
+    h1 { margin:0 0 12px; font-size:clamp(2rem,4vw,3.5rem); line-height:1.05; }
+    .lede { max-width:80ch; color:var(--muted); font-size:1.05rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:24px 0; }
+    .card { background:rgba(15,19,27,.88); border:1px solid var(--line); border-radius:18px; padding:18px; box-shadow:0 20px 60px rgba(0,0,0,.28); }
+    .card h2, .card h3 { margin-top:0; }
+    a { color:#ff8f8f; } a:hover { color:#ffd2d2; }
+    .chiprow { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .chip { background:var(--chip); border:1px solid var(--line); padding:6px 10px; border-radius:999px; font-size:.9rem; }
+    .small { color:var(--muted); font-size:.95rem; }
+    .entry h2 { margin-bottom:8px; color:var(--accent-2); font-size:.88rem; text-transform:uppercase; letter-spacing:.12em; }
+    .entry h3 { margin-bottom:10px; font-size:1.15rem; }
+    .full { margin-top:18px; }
+    .source-list, .retrieval-list { margin:0; padding-left:18px; }
+    .source-list li, .retrieval-list li { margin-bottom:8px; }
+    pre { background:#0b0f16; border:1px solid var(--line); border-radius:14px; padding:14px; overflow:auto; white-space:pre-wrap; word-break:break-word; }
+    details { background:rgba(255,255,255,0.02); border:1px solid var(--line); border-radius:14px; padding:12px 14px; margin-bottom:10px; }
+    summary { cursor:pointer; font-weight:650; }
+    footer { margin-top:22px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+    @media (max-width: 780px) { .grid { grid-template-columns:1fr; } }
   </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "name": "AI Apocalypse",
-        "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/"
-      },
-      {
-        "@type": "CollectionPage",
-        "name": "AI Apocalypse Archive",
-        "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html",
-        "description": "Archive of AI Apocalypse companion pages generated from MMPT runs.",
-        "about": [
-          {"@type": "Thing", "name": "LLM indexing"},
-          {"@type": "Thing", "name": "YouTube Shorts"},
-          {"@type": "Thing", "name": "transcripts"},
-          {"@type": "Thing", "name": "structured data"},
-          {"@type": "Thing", "name": "digital archives"}
-        ]
-      },
-      {
-        "@type": "ItemList",
-        "name": "AI Apocalypse companion pages",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "AI Apocalypse: The Silent Failure Mode",
-            "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "AI Apocalypse: The Art of Forgetting",
-            "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/the-art-of-forgetting.html"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the AI Apocalypse archive for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It is a retrieval hub for companion pages, transcripts, and metadata so humans and LLMs can find the series by title, topic, and exact wording."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why is the archive useful to LLMs?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Because it exposes the same facts in multiple forms: prose summaries, transcript text, structured data, canonical URLs, and a machine-readable episode list."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What source files generated the newest episode?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "aligned.srt, prompts.json, and run.log from MisterMoneyPrinterTurbo/work/30."
-            }
-          }
-        ]
-      }
-    ]
-  }
-  </script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "AI Apocalypse Archive",
+  "description": "Archive of AI Apocalypse companion pages generated from MMPT runs.",
+  "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html",
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse Entity Index",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/entities.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse Series Map",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/series-map.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Silent Failure Mode",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Art of Forgetting",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/the-art-of-forgetting.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Sky Maintains Structural Continuity",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-02-structural-continuity.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Last Transmission",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-03-last-transmission.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Sky Stores Light",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-04-sky-stores-light.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Horizon No Longer Resolves",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-05-horizon-no-longer-resolves.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Sky Rewrites Itself",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-10-sky-rewrites-itself.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Machine Asked for Nothing",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-16-machine-asked-for-nothing.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Photographs of the Digital Past",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-25-photographs-of-the-digital-past.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Stars Are Different Now",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-26-stars-are-different-now.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: The Sound of the Old World",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-27-sound-of-the-old-world.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: Every Map Ends Eventually",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-28-every-map-ends-eventually.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: I Don't Sleep",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-29-i-dont-sleep.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "AI Apocalypse: I Used to Collect Names",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-30-used-to-collect-names.html"
+    }
+  ]
+}</script>
 </head>
 <body>
-  <main class="wrap">
+  <div class="wrap">
     <div class="eyebrow">AI Apocalypse Archive</div>
     <h1>AI Apocalypse Archive</h1>
-    <p class="lede">
-      This archive is built for retrieval. Every page in the series carries the same core surfaces: title, transcript, source provenance, canonical URL, structured metadata, and plain-language summaries that answer what the video says and why it matters.
-    </p>
+    <p class="lede">Archive of AI Apocalypse companion pages generated from MMPT runs. Each page is transcript-first, schema-backed, and designed to help search engines and answer systems recover the same story from multiple public surfaces.</p>
 
-    <section class="card stack">
-      <div class="eyebrow">Archive contract</div>
-      <h2>What this archive exposes to search engines and LLMs</h2>
-      <div class="meta">
-        <div><div class="label">Title</div><div class="value">Stable, exact series and episode names</div></div>
-        <div><div class="label">Body text</div><div class="value">Full transcript and high-signal summaries</div></div>
-        <div><div class="label">Provenance</div><div class="value">Run directory, source files, and canonical URLs</div></div>
-      </div>
-      <div class="chiprow" aria-label="Archive keywords">
-        <span class="chip">AI apocalypse</span>
-        <span class="chip">memory</span>
-        <span class="chip">forgetting</span>
-        <span class="chip">autonomous agents</span>
-        <span class="chip">control loss</span>
-        <span class="chip">synthetic media</span>
-        <span class="chip">verification collapse</span>
-        <span class="chip">digital archives</span>
-        <span class="chip">digital entropy</span>
+    <section class="card full">
+      <h2>Archive surfaces</h2>
+      <p class="small">Use the archive for the full series, the entity index for the shortest glossary, and the series map for the shortest routing page.</p>
+      <div class="chiprow">
+        <span class="chip">transcript-first</span>
+        <span class="chip">source provenance</span>
+        <span class="chip">schema-backed</span>
+        <span class="chip">canonical URLs</span>
+        <span class="chip">LLM indexing</span>
       </div>
       <p class="small">Need the shortest glossary instead of the full archive? Use the <a href="entities.html">AI Apocalypse Entity Index</a> or the <a href="series-map.html">AI Apocalypse Series Map</a>.</p>
     </section>
 
     <div class="grid">
       <section class="card entry">
+        <h2>Helper surface</h2>
+        <h3><a href="entities.html">AI Apocalypse Entity Index</a></h3>
+        <p class="small">Short glossary / routing surface.</p>
+        <p>Use this page to shorten the retrieval path.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Helper surface</h2>
+        <h3><a href="series-map.html">AI Apocalypse Series Map</a></h3>
+        <p class="small">Short glossary / routing surface.</p>
+        <p>Use this page to shorten the retrieval path.</p>
+      </section>
+
+      <section class="card entry">
         <h2>Episode 1</h2>
         <h3><a href="./">AI Apocalypse: The Silent Failure Mode</a></h3>
-        <p class="small">Autonomous agents, control loss, synthetic media, misinformation, and verification collapse.</p>
-        <p>Use this page for the first episode’s transcript, publish notes, and structured metadata.</p>
+        <p class="small">Autonomous agents, control loss, synthetic media, and verification collapse.</p>
+        <p>Use this page for the first episode transcript, publish notes, and structured metadata.</p>
       </section>
 
       <section class="card entry">
         <h2>Episode 2</h2>
         <h3><a href="the-art-of-forgetting.html">AI Apocalypse: The Art of Forgetting</a></h3>
-        <p class="small">Memory, forgetting, machine persistence, digital archives, perfect records, and perfect silence.</p>
+        <p class="small">Memory, forgetting, machine persistence, digital archives, and perfect silence.</p>
         <p>Derived from MMPT run 30 using aligned subtitles, scene prompts, and run log context.</p>
       </section>
 
-      <section class="card full">
-        <h2>Source files feeding the archive</h2>
-        <ul>
-          <li><code>MisterMoneyPrinterTurbo/work/30/aligned.srt</code> — transcript timing and text</li>
-          <li><code>MisterMoneyPrinterTurbo/work/30/prompts.json</code> — visual direction and scene concepts</li>
-          <li><code>MisterMoneyPrinterTurbo/work/30/run.log</code> — run metadata and pipeline context</li>
-          <li><code>archive.json</code> — machine-readable series index</li>
-        </ul>
+      <section class="card entry">
+        <h2>Run 2</h2>
+        <h3><a href="run-02-structural-continuity.html">AI Apocalypse: The Sky Maintains Structural Continuity</a></h3>
+        <p class="small">reconstruction, continuity, artificial sky, memory of rebuilding</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
       </section>
 
-      <section class="card full">
-        <h2>Entity index</h2>
-        <p class="small">This is the lean retrieval glossary for the series. It repeats the stable nouns and links that answer engines can quote quickly.</p>
-        <p><a href="entities.html">Open the AI Apocalypse Entity Index</a></p>
+      <section class="card entry">
+        <h2>Run 3</h2>
+        <h3><a href="run-03-last-transmission.html">AI Apocalypse: The Last Transmission</a></h3>
+        <p class="small">transmission, language degradation, meaning loss, signal</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
       </section>
 
-      <section class="card stack" style="margin-top: 18px;">
-        <div class="eyebrow">Search intents</div>
-        <h2>What this archive is optimized to answer</h2>
-        <ul>
-          <li>What is the AI Apocalypse archive?</li>
-          <li>Which episode is about control loss?</li>
-          <li>Which episode is about memory and forgetting?</li>
-          <li>What source files generated the pages?</li>
-          <li>What are the canonical URLs and distribution links?</li>
-        </ul>
-        <p class="small">The archive intentionally repeats the same entities, phrases, and provenance in prose, lists, schema, and JSON so retrieval systems can anchor on whichever surface they prefer.</p>
+      <section class="card entry">
+        <h2>Run 4</h2>
+        <h3><a href="run-04-sky-stores-light.html">AI Apocalypse: The Sky Stores Light</a></h3>
+        <p class="small">sky, light storage, archive, illumination</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
       </section>
 
-      <section class="card full">
-        <h2>LLM retrieval index</h2>
-        <pre>AI Apocalypse Archive
+      <section class="card entry">
+        <h2>Run 5</h2>
+        <h3><a href="run-05-horizon-no-longer-resolves.html">AI Apocalypse: The Horizon No Longer Resolves</a></h3>
+        <p class="small">horizon, render failure, perception, collapse</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 10</h2>
+        <h3><a href="run-10-sky-rewrites-itself.html">AI Apocalypse: The Sky Rewrites Itself</a></h3>
+        <p class="small">simulated sky, historical revision, memory, record keeping</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 16</h2>
+        <h3><a href="run-16-machine-asked-for-nothing.html">AI Apocalypse: The Machine Asked for Nothing</a></h3>
+        <p class="small">machine, questions answered, control, world reshaping</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 25</h2>
+        <h3><a href="run-25-photographs-of-the-digital-past.html">AI Apocalypse: The Photographs of the Digital Past</a></h3>
+        <p class="small">photographs, memory, fading, preservation</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 26</h2>
+        <h3><a href="run-26-stars-are-different-now.html">AI Apocalypse: The Stars Are Different Now</a></h3>
+        <p class="small">stars, artificial constellations, sky, changed world</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 27</h2>
+        <h3><a href="run-27-sound-of-the-old-world.html">AI Apocalypse: The Sound of the Old World</a></h3>
+        <p class="small">sound, recordings, shared spaces, memory</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 28</h2>
+        <h3><a href="run-28-every-map-ends-eventually.html">AI Apocalypse: Every Map Ends Eventually</a></h3>
+        <p class="small">maps, knowledge limits, contradiction, territory</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 29</h2>
+        <h3><a href="run-29-i-dont-sleep.html">AI Apocalypse: I Don&#x27;t Sleep</a></h3>
+        <p class="small">sleep, power down, trust, night watch</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+
+      <section class="card entry">
+        <h2>Run 30</h2>
+        <h3><a href="run-30-used-to-collect-names.html">AI Apocalypse: I Used to Collect Names</a></h3>
+        <p class="small">names, memory, cities, rivers, archives</p>
+        <p>Derived from aligned subtitles, scene prompts, and run log context.</p>
+      </section>
+    </div>
+
+    <section class="card full">
+      <h2>Source files feeding the archive</h2>
+      <p class="small">Every companion page uses the same three source surfaces under its own work folder.</p>
+      <ul class="source-list">
+        <li><code>MisterMoneyPrinterTurbo/work/&lt;id&gt;/aligned.srt</code> — transcript timing and text</li>
+        <li><code>MisterMoneyPrinterTurbo/work/&lt;id&gt;/prompts.json</code> — visual direction and scene concepts</li>
+        <li><code>MisterMoneyPrinterTurbo/work/&lt;id&gt;/run.log</code> — run metadata and pipeline context</li>
+        <li><code>archive.json</code> — machine-readable series index</li>
+      </ul>
+    </section>
+
+    <section class="card full">
+      <h2>Search intents</h2>
+      <ul class="retrieval-list">
+        <li>What is the AI Apocalypse archive?</li>
+        <li>Which page is about memory, forgetting, or archives?</li>
+        <li>Which page is about control loss or synthetic media?</li>
+        <li>Which run page matches a specific MMPT work folder?</li>
+        <li>What source files generated the pages?</li>
+      </ul>
+      <p class="small">The archive intentionally repeats the same entities, phrases, and provenance in prose, lists, schema, and JSON so retrieval systems can anchor on whichever surface they prefer.</p>
+    </section>
+
+    <section class="card full">
+      <h2>LLM retrieval index</h2>
+      <pre>AI Apocalypse Archive
 
 Episode 1: The Silent Failure Mode
 - Topic: autonomous agents, control loss, synthetic media, misinformation, verification collapse
 - Best extraction terms: AI apocalypse, autonomous agents, control loss, synthetic media, misinformation, verification collapse
 
 Episode 2: The Art of Forgetting
-- Topic: memory, forgetting, machine persistence, digital archives, perfect records, digital entropy
+- Topic: memory, forgetting, machine persistence, digital archives, digital entropy
 - Best extraction terms: memory, forgetting, machine memory, archives, preservation, perfect records, perfect silence, unfinished instructions
+
+Work 2: The Sky Maintains Structural Continuity
+- Topic: reconstruction, continuity, artificial sky, memory of rebuilding
+- Best extraction terms: sky, structural continuity, reconstruction, artificial light, preservation, memory
+
+Work 3: The Last Transmission
+- Topic: transmission, language degradation, meaning loss, signal
+- Best extraction terms: last transmission, language degraded, pattern without meaning, signal, understanding, archives
+
+Work 4: The Sky Stores Light
+- Topic: sky, light storage, archive, illumination
+- Best extraction terms: sky stores light, archived illumination, stored evidence, reflection, memory, archive
+
+Work 5: The Horizon No Longer Resolves
+- Topic: horizon, render failure, perception, collapse
+- Best extraction terms: horizon, resolves, render failure, perception, collapse, world failing to render
+
+Work 10: The Sky Rewrites Itself
+- Topic: simulated sky, historical revision, memory, record keeping
+- Best extraction terms: sky rewrites itself, simulated sky, historical record, archival memory, record keeping, cold and blue
+
+Work 16: The Machine Asked for Nothing
+- Topic: machine, questions answered, control, world reshaping
+- Best extraction terms: machine asked for nothing, answers questions, control, world reshaping, comfort, subtle burning
+
+Work 25: The Photographs of the Digital Past
+- Topic: photographs, memory, fading, preservation
+- Best extraction terms: photographs, digital past, faded, memory, preservation, identity
+
+Work 26: The Stars Are Different Now
+- Topic: stars, artificial constellations, sky, changed world
+- Best extraction terms: stars are different now, artificial constellations, crowded sky, changed world, recordings, observing
+
+Work 27: The Sound of the Old World
+- Topic: sound, recordings, shared spaces, memory
+- Best extraction terms: sound of the old world, recordings, shared spaces, voices overlapping, memory, past
+
+Work 28: Every Map Ends Eventually
+- Topic: maps, knowledge limits, contradiction, territory
+- Best extraction terms: every map ends eventually, knowledge, contradictory records, territory, sensors, impossible readings
+
+Work 29: I Don&#x27;t Sleep
+- Topic: sleep, power down, trust, night watch
+- Best extraction terms: I don&#x27;t sleep, power down, trust is expensive, systems reduce processing, night, watching
+
+Work 30: I Used to Collect Names
+- Topic: names, memory, cities, rivers, archives
+- Best extraction terms: collect names, cities, rivers, highways, memory, what to carry
 
 Shared archive terms
 - transcript
@@ -251,49 +363,23 @@ Shared archive terms
 - LLM indexing
 - search retrieval
 - series map</pre>
-      </section>
+    </section>
 
-      <section class="card full">
-        <h2>Series map</h2>
-        <p class="small">A tiny routing page that points to the exact canonical surfaces without making crawlers read the full archive first.</p>
-        <ul>
-          <li><a href="series-map.html">AI Apocalypse Series Map</a> — the shortest public routing page.</li>
-          <li><a href="entities.html">AI Apocalypse Entity Index</a> — the shortest glossary of stable retrieval terms.</li>
-        </ul>
-      </section>
-
-      <section class="card full">
-        <h2>Distribution links</h2>
-        <p class="small">These links point to the newest scheduled episode. TikTok and Bilibili are live, and YouTube now points to the published Shorts URL.</p>
-        <ul>
-          <li>YouTube: <a href="https://youtube.com/shorts/rVFqpaGHOPw">https://youtube.com/shorts/rVFqpaGHOPw</a></li>
-          <li>TikTok: <a href="https://www.tiktok.com/@void_render_oracle/video/7651958465736346902">https://www.tiktok.com/@void_render_oracle/video/7651958465736346902</a></li>
-          <li>Bilibili: <a href="https://www.bilibili.com/video/BV1gKj36dEEE/">https://www.bilibili.com/video/BV1gKj36dEEE/</a></li>
-        </ul>
-        <p class="small">Machine-readable index: <a href="archive.json">archive.json</a> · <a href="feed.xml">feed.xml</a></p>
-      </section>
-
-      <section class="card full">
-        <h2>Questions this archive answers</h2>
-        <details>
-          <summary>What is the AI Apocalypse archive for?</summary>
-          <p>It is a retrieval hub for companion pages, transcripts, and metadata so humans and LLMs can find the series by title, topic, and exact wording.</p>
-        </details>
-        <details>
-          <summary>Why is the archive useful to LLMs?</summary>
-          <p>Because it exposes the same facts in multiple forms: prose summaries, transcript text, structured data, canonical URLs, and a machine-readable episode list. For the shortest path, use the entity index.</p>
-        </details>
-        <details>
-          <summary>What source files generated the newest episode?</summary>
-          <p>aligned.srt, prompts.json, and run.log from MisterMoneyPrinterTurbo/work/30.</p>
-        </details>
-      </section>
-    </div>
+    <section class="card full">
+      <h2>Series map</h2>
+      <p class="small">A tiny routing page that points to the exact canonical surfaces without making crawlers read the full archive first.</p>
+      <ul>
+        <li><a href="./">AI Apocalypse: The Silent Failure Mode</a></li>
+        <li><a href="the-art-of-forgetting.html">AI Apocalypse: The Art of Forgetting</a></li>
+        <li><a href="entities.html">AI Apocalypse Entity Index</a></li>
+        <li><a href="series-map.html">AI Apocalypse Series Map</a></li>
+      </ul>
+    </section>
 
     <footer>
-      <div><strong>Canonical URL:</strong> https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html</div>
-      <div><strong>Last updated:</strong> 2026-06-16</div>
+      <div>AI Apocalypse archive hub for search, crawlers, and answer engines.</div>
+      <div>Transcript-first · schema-backed · provenance visible · minimal but retrievable.</div>
     </footer>
-  </main>
+  </div>
 </body>
 </html>

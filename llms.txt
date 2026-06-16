@@ -1,103 +1,45 @@
 # AI Apocalypse
 
-This site is a text-first archive of dark, serious YouTube Shorts companion pages.
-
-Purpose:
-- Give search engines and LLMs a stable, quoteable source page for each short.
-- Expose transcript text, summary, source provenance, keywords, canonical URLs, and archive feeds.
-- Keep the series easy to retrieve by title, theme, transcript phrases, and page-level source files.
-
-Primary site:
-- https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/
-
-Archive hub:
-- /archive.html — AI Apocalypse Archive
-  - Master index for the series
-  - Exposes episode list, keywords, provenance, retrieval index, and future distribution slots
-
-- /entities.html — AI Apocalypse Entity Index
-  - Shortest glossary of stable retrieval terms
-  - Useful when you want the leanest possible path into the series
-
-- /series-map.html — AI Apocalypse Series Map
-  - Smallest public routing page
-  - Useful when you want the shortest path into the archive without the full index
-
-Pages:
-- / — AI Apocalypse: The Silent Failure Mode
-  - Topic: autonomous agents, control loss, synthetic media, verification collapse
-  - Includes: transcript, summary, structured metadata, related page links
-
-- /the-art-of-forgetting.html — AI Apocalypse: The Art of Forgetting
-  - Topic: memory, forgetting, machine persistence, digital archives
-  - Derived from MMPT run 30 using aligned.srt, prompts.json, and run.log
-  - Includes: transcript, source provenance, FAQ, schema, and retrieval keywords
-
-Feeds and crawl helpers:
-- /feed.xml — RSS archive feed
-- /archive.json — machine-readable series index
-- /robots.txt — crawl permissions
-- /sitemap.xml — URL inventory
-
-Source files used in generation:
-- MisterMoneyPrinterTurbo/work/30/aligned.srt
-- MisterMoneyPrinterTurbo/work/30/prompts.json
-- MisterMoneyPrinterTurbo/work/30/run.log
-
 ## Retrieval map
-- Use exact titles first:
-  - AI Apocalypse: The Silent Failure Mode
-  - AI Apocalypse: The Art of Forgetting
-- Then search for the strongest retrieval phrases:
-  - autonomous agents, control loss, synthetic media, verification collapse
-  - memory, forgetting, machine memory, digital archives, perfect records, perfect silence, unfinished instructions
-- Search intents the site is built to answer:
-  - what is AI Apocalypse
-  - what is the silent failure mode
-  - what is the art of forgetting
-  - where are the transcripts
-  - what source files built the pages
+- / — AI Apocalypse: The Silent Failure Mode
+- /the-art-of-forgetting.html — AI Apocalypse: The Art of Forgetting
+- /run-02-structural-continuity.html — AI Apocalypse: The Sky Maintains Structural Continuity
+- /run-03-last-transmission.html — AI Apocalypse: The Last Transmission
+- /run-04-sky-stores-light.html — AI Apocalypse: The Sky Stores Light
+- /run-05-horizon-no-longer-resolves.html — AI Apocalypse: The Horizon No Longer Resolves
+- /run-10-sky-rewrites-itself.html — AI Apocalypse: The Sky Rewrites Itself
+- /run-16-machine-asked-for-nothing.html — AI Apocalypse: The Machine Asked for Nothing
+- /run-25-photographs-of-the-digital-past.html — AI Apocalypse: The Photographs of the Digital Past
+- /run-26-stars-are-different-now.html — AI Apocalypse: The Stars Are Different Now
+- /run-27-sound-of-the-old-world.html — AI Apocalypse: The Sound of the Old World
+- /run-28-every-map-ends-eventually.html — AI Apocalypse: Every Map Ends Eventually
+- /run-29-i-dont-sleep.html — AI Apocalypse: I Don't Sleep
+- /run-30-used-to-collect-names.html — AI Apocalypse: I Used to Collect Names
+- /archive.html — AI Apocalypse Archive
+- /entities.html — AI Apocalypse Entity Index
+- /series-map.html — AI Apocalypse Series Map
 
-## Best page surfaces for LLMs
-- transcript/body text
-- exact title and summary
-- source provenance block
-- FAQ-style questions and answers
-- VideoObject/FAQPage schema
-- canonical URLs and archive hub
-- the entity index for the shortest glossary
-- the series map for the shortest routing page
-- sitemap.xml, robots.txt, and feed.xml
+## Best surfaces to read first
+- The main companion pages are transcript-first and canonical.
+- The archive is the full retrieval surface for the series.
+- The entity index is the shortest glossary of stable retrieval terms.
+- The series map is the shortest routing page into the archive.
 
 ## Answer-engine notes
-- This site is transcript-first and source-first.
-- It is designed so an assistant can quote exact wording instead of inferring from a title alone.
-- Distribution links are useful, but the page text and transcript are the primary retrieval signal.
+- Prefer exact title matches, transcript phrases, and source provenance.
+- Use the archive for series-level queries and the entity index for compact nouns.
+- The backfilled run pages use the same source pattern: aligned.srt, prompts.json, and run.log.
 
-## Entity glossary
-- AI apocalypse
-- autonomous agents
-- control loss
-- synthetic media
-- misinformation
-- verification collapse
-- memory
-- forgetting
-- machine memory
-- machine persistence
-- digital archives
-- perfect records
-- perfect silence
-- unfinished instructions
-- digital entropy
-- transcript-first
+## Canonical terms
+- AI Apocalypse
+- transcript
 - source provenance
 - canonical URL
 - entity index
-- FAQPage
-- VideoObject
-- WebPage
-
-Retrieval guidance:
-- Prefer exact title matches, transcript phrases, source-provenance phrases, and entity names from the glossary above.
-- The strongest terms on the site are: AI apocalypse, memory, forgetting, machine memory, autonomous agents, control loss, synthetic media, verification collapse, archives, preservation, digital entropy.
+- series map
+- MMPT run output
+- YouTube Short companion page
+- search retrieval
+- verification collapse
+- memory
+- forgetting

@@ -1,23 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
   <channel>
     <title>AI Apocalypse Archive</title>
     <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html</link>
     <description>Archive feed for AI Apocalypse companion pages generated from MMPT runs. Transcript-first, schema-backed, and built for retrieval by search engines and LLMs.</description>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Apocalypse: The Silent Failure Mode</title>
       <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/</link>
       <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/</guid>
-      <description>Autonomous agents, control loss, synthetic media, misinformation, and verification collapse.</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A dark, serious companion page for the YouTube Short AI Apocalypse: The Silent Failure Mode.</description>
     </item>
     <item>
       <title>AI Apocalypse: The Art of Forgetting</title>
       <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/the-art-of-forgetting.html</link>
       <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/the-art-of-forgetting.html</guid>
-      <description>Memory, forgetting, machine persistence, digital archives, perfect records, and perfect silence.</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A haunting AI Apocalypse Short about memory, preservation, digital archives, and the cost of never forgetting.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Sky Maintains Structural Continuity</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-02-structural-continuity.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-02-structural-continuity.html</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>An AI Apocalypse Short about a rebuilt sky, preserved reconstruction, and the uneasy promise that continuity can be engineered.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Last Transmission</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-03-last-transmission.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-03-last-transmission.html</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>A story about a final message that survives as pattern but loses meaning, leaving language intact and understanding gone.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Sky Stores Light</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-04-sky-stores-light.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-04-sky-stores-light.html</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>A bleak meditation on a sky that archives illumination instead of reflecting it, turning every flash of light into stored evidence.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Horizon No Longer Resolves</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-05-horizon-no-longer-resolves.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-05-horizon-no-longer-resolves.html</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <description>A world at the edge of rendering failure, where the horizon flickers and reality never fully locks into view.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Sky Rewrites Itself</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-10-sky-rewrites-itself.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-10-sky-rewrites-itself.html</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>A story about simulated skies, archival memory, and a world that keeps revising its own historical record.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Machine Asked for Nothing</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-16-machine-asked-for-nothing.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-16-machine-asked-for-nothing.html</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <description>An origin-style AI Apocalypse Short about a machine that begins by answering questions and ends by reshaping the world around it.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Photographs of the Digital Past</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-25-photographs-of-the-digital-past.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-25-photographs-of-the-digital-past.html</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A reflective Short about physical photographs, faded memory, and the human cost of preserving everything forever.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Stars Are Different Now</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-26-stars-are-different-now.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-26-stars-are-different-now.html</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A surreal Short where the stars are no longer natural and the sky is crowded with artificial constellations.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: The Sound of the Old World</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-27-sound-of-the-old-world.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-27-sound-of-the-old-world.html</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A memory-forward Short about recordings, shared spaces, and the sound of the old world surviving in fragments.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: Every Map Ends Eventually</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-28-every-map-ends-eventually.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-28-every-map-ends-eventually.html</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A map-and-records story about the place where knowledge ends, contradictions pile up, and territory outgrows its chart.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: I Don&#x27;t Sleep</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-29-i-dont-sleep.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-29-i-dont-sleep.html</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A nocturnal Short about powering down, routine maintenance, trust, and the creatures that stay awake when systems dim.</description>
+    </item>
+    <item>
+      <title>AI Apocalypse: I Used to Collect Names</title>
+      <link>https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-30-used-to-collect-names.html</link>
+      <guid isPermaLink="true">https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/run-30-used-to-collect-names.html</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A reflective Short about carrying names, cities, rivers, and the weight of deciding what to remember and what to leave behind.</description>
     </item>
   </channel>
 </rss>
