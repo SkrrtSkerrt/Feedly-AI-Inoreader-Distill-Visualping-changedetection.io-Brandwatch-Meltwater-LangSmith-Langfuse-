@@ -15,6 +15,10 @@ Archive hub:
   - Master index for the series
   - Exposes episode list, keywords, provenance, retrieval index, and future distribution slots
 
+- /entities.html — AI Apocalypse Entity Index
+  - Shortest glossary of stable retrieval terms
+  - Useful when you want the leanest possible path into the series
+
 Pages:
 - / — AI Apocalypse: The Silent Failure Mode
   - Topic: autonomous agents, control loss, synthetic media, verification collapse
@@ -57,6 +61,7 @@ Source files used in generation:
 - FAQ-style questions and answers
 - VideoObject/FAQPage schema
 - canonical URLs and archive hub
+- the entity index for the shortest glossary
 - sitemap.xml, robots.txt, and feed.xml
 
 ## Answer-engine notes
@@ -83,6 +88,7 @@ Source files used in generation:
 - transcript-first
 - source provenance
 - canonical URL
+- entity index
 - FAQPage
 - VideoObject
 - WebPage

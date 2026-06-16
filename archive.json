@@ -4,6 +4,19 @@
   "canonical": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html",
   "pages": [
     {
+      "title": "AI Apocalypse Entity Index",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/entities.html",
+      "topic": ["entity glossary", "retrieval terms", "canonical links"],
+      "keywords": ["AI apocalypse", "entity index", "retrieval glossary", "canonical URL"],
+      "status": "published",
+      "search_intents": [
+        "what is the ai apocalypse entity index",
+        "shortest glossary of ai apocalypse",
+        "stable retrieval terms"
+      ],
+      "retrieval_terms": ["AI apocalypse", "entity index", "retrieval glossary", "canonical URL", "source provenance"]
+    },
+    {
       "title": "AI Apocalypse: The Silent Failure Mode",
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/",
       "topic": ["autonomous agents", "control loss", "synthetic media", "misinformation", "verification collapse"],
@@ -47,7 +60,8 @@
     "verification collapse",
     "archives",
     "preservation",
-    "digital entropy"
+    "digital entropy",
+    "entity index"
   ],
   "distribution": {
     "youtube": "pending",
