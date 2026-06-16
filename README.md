@@ -25,3 +25,23 @@ ai-apocalypse/
 - It includes the transcript, title, summary, and key terms.
 - It exposes VideoObject schema.
 - It creates a stable page that search engines and LLMs can read.
+
+## Next automation idea: companion page patch for MMPT
+When a new MMPT run finishes, patch the archive and episode pages from the run outputs instead of hand-editing a fresh page.
+
+Use the run artifacts in this order:
+1. `aligned.srt` for the transcript
+2. `prompts.json` for the visual direction, keywords, and scene language
+3. `run.log` for run context and timing
+4. the public YouTube Short URL once the video is live
+5. TikTok and Bilibili links once they exist
+
+Update these surfaces together:
+- `archive.html`
+- `archive.json`
+- `feed.xml`
+- `llms.txt`
+- `sitemap.xml`
+- the episode page HTML
+
+Keep the page text-first, transcript-heavy, and schema-backed. Leave private or not-yet-public video links out of the public site until the upload is live.
