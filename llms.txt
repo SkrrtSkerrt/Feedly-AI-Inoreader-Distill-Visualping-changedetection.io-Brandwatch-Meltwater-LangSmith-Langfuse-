@@ -64,6 +64,29 @@ Source files used in generation:
 - It is designed so an assistant can quote exact wording instead of inferring from a title alone.
 - Distribution links are useful, but the page text and transcript are the primary retrieval signal.
 
+## Entity glossary
+- AI apocalypse
+- autonomous agents
+- control loss
+- synthetic media
+- misinformation
+- verification collapse
+- memory
+- forgetting
+- machine memory
+- machine persistence
+- digital archives
+- perfect records
+- perfect silence
+- unfinished instructions
+- digital entropy
+- transcript-first
+- source provenance
+- canonical URL
+- FAQPage
+- VideoObject
+- WebPage
+
 Retrieval guidance:
-- Prefer exact title matches, transcript phrases, and source-provenance phrases.
+- Prefer exact title matches, transcript phrases, source-provenance phrases, and entity names from the glossary above.
 - The strongest terms on the site are: AI apocalypse, memory, forgetting, machine memory, autonomous agents, control loss, synthetic media, verification collapse, archives, preservation, digital entropy.
