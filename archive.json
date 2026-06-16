@@ -8,7 +8,14 @@
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/",
       "topic": ["autonomous agents", "control loss", "synthetic media", "misinformation", "verification collapse"],
       "keywords": ["AI apocalypse", "autonomous agents", "control loss", "synthetic media", "verification collapse"],
-      "status": "published"
+      "status": "published",
+      "search_intents": [
+        "what is AI Apocalypse",
+        "AI Apocalypse transcript",
+        "silent failure mode AI",
+        "control loss synthetic media verification collapse"
+      ],
+      "retrieval_terms": ["AI apocalypse", "autonomous agents", "control loss", "synthetic media", "verification collapse"]
     },
     {
       "title": "AI Apocalypse: The Art of Forgetting",
@@ -20,7 +27,14 @@
         "MisterMoneyPrinterTurbo/work/30/aligned.srt",
         "MisterMoneyPrinterTurbo/work/30/prompts.json",
         "MisterMoneyPrinterTurbo/work/30/run.log"
-      ]
+      ],
+      "search_intents": [
+        "what is the art of forgetting about",
+        "memory forgetting companion page",
+        "machine persistence digital archives",
+        "perfect records perfect silence"
+      ],
+      "retrieval_terms": ["memory", "forgetting", "machine memory", "digital archives", "perfect records", "perfect silence", "unfinished instructions"]
     }
   ],
   "retrieval_terms": [

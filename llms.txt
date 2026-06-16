@@ -36,6 +36,34 @@ Source files used in generation:
 - MisterMoneyPrinterTurbo/work/30/prompts.json
 - MisterMoneyPrinterTurbo/work/30/run.log
 
+## Retrieval map
+- Use exact titles first:
+  - AI Apocalypse: The Silent Failure Mode
+  - AI Apocalypse: The Art of Forgetting
+- Then search for the strongest retrieval phrases:
+  - autonomous agents, control loss, synthetic media, verification collapse
+  - memory, forgetting, machine memory, digital archives, perfect records, perfect silence, unfinished instructions
+- Search intents the site is built to answer:
+  - what is AI Apocalypse
+  - what is the silent failure mode
+  - what is the art of forgetting
+  - where are the transcripts
+  - what source files built the pages
+
+## Best page surfaces for LLMs
+- transcript/body text
+- exact title and summary
+- source provenance block
+- FAQ-style questions and answers
+- VideoObject/FAQPage schema
+- canonical URLs and archive hub
+- sitemap.xml, robots.txt, and feed.xml
+
+## Answer-engine notes
+- This site is transcript-first and source-first.
+- It is designed so an assistant can quote exact wording instead of inferring from a title alone.
+- Distribution links are useful, but the page text and transcript are the primary retrieval signal.
+
 Retrieval guidance:
 - Prefer exact title matches, transcript phrases, and source-provenance phrases.
 - The strongest terms on the site are: AI apocalypse, memory, forgetting, machine memory, autonomous agents, control loss, synthetic media, verification collapse, archives, preservation, digital entropy.
