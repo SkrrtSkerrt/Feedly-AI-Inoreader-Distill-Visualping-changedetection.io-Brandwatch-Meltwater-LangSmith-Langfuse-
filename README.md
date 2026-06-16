@@ -4,6 +4,9 @@ This folder contains the live companion page for the AI Apocalypse Short.
 
 ## Files
 - `index.html` — the companion page itself
+- `archive.html` — archive hub
+- `entities.html` — lean entity index
+- `series-map.html` — tiny routing page
 
 ## Free GitHub Pages publish steps
 1. Keep `index.html` at the repository root.
@@ -17,6 +20,9 @@ This folder contains the live companion page for the AI Apocalypse Short.
 ```text
 ai-apocalypse/
 ├── index.html
+├── archive.html
+├── entities.html
+├── series-map.html
 └── README.md
 ```
 
@@ -42,6 +48,7 @@ Update these surfaces together:
 - `feed.xml`
 - `llms.txt`
 - `sitemap.xml`
+- `series-map.html`
 - the episode page HTML
 
 Keep the page text-first, transcript-heavy, and schema-backed. Leave private or not-yet-public video links out of the public site until the upload is live.

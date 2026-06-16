@@ -17,6 +17,19 @@
       "retrieval_terms": ["AI apocalypse", "entity index", "retrieval glossary", "canonical URL", "source provenance"]
     },
     {
+      "title": "AI Apocalypse Series Map",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/series-map.html",
+      "topic": ["routing page", "entity index", "archive map"],
+      "keywords": ["AI apocalypse", "series map", "routing page", "archive map"],
+      "status": "published",
+      "search_intents": [
+        "what is the ai apocalypse series map",
+        "shortest path into ai apocalypse",
+        "where is the archive map"
+      ],
+      "retrieval_terms": ["AI apocalypse", "series map", "routing page", "archive map", "entity index"]
+    },
+    {
       "title": "AI Apocalypse: The Silent Failure Mode",
       "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/",
       "topic": ["autonomous agents", "control loss", "synthetic media", "misinformation", "verification collapse"],
@@ -61,7 +74,8 @@
     "archives",
     "preservation",
     "digital entropy",
-    "entity index"
+    "entity index",
+    "series map"
   ],
   "distribution": {
     "youtube": "pending",

@@ -19,6 +19,10 @@ Archive hub:
   - Shortest glossary of stable retrieval terms
   - Useful when you want the leanest possible path into the series
 
+- /series-map.html — AI Apocalypse Series Map
+  - Smallest public routing page
+  - Useful when you want the shortest path into the archive without the full index
+
 Pages:
 - / — AI Apocalypse: The Silent Failure Mode
   - Topic: autonomous agents, control loss, synthetic media, verification collapse
@@ -62,6 +66,7 @@ Source files used in generation:
 - VideoObject/FAQPage schema
 - canonical URLs and archive hub
 - the entity index for the shortest glossary
+- the series map for the shortest routing page
 - sitemap.xml, robots.txt, and feed.xml
 
 ## Answer-engine notes
