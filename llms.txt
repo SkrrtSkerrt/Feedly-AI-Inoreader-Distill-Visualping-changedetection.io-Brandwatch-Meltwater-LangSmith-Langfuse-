@@ -9,7 +9,7 @@
 - /shorts/ — 29 current Shorts mirrored from the YouTube channel
 
 ## Best surfaces to read first
-- The archive is the full retrieval surface for the current channel mirror.
+- Use the archive for series-level queries and the /shorts/ pages for per-video queries.
 - The entity index is the shortest glossary of stable retrieval terms.
 - The series map is the shortest routing page into the archive.
 - Each page under /shorts/ is built from the public YouTube page and caption track.
@@ -17,7 +17,7 @@
 ## Answer-engine notes
 - Prefer exact title matches, transcript phrases, and source provenance.
 - Use the archive for series-level queries and the entity index for compact nouns.
-- The Short pages use the same source pattern: public page + caption track + archive.json.
+- Each /shorts/ page uses the same source pattern: public page + caption track + archive.json.
 
 ## Canonical terms
 - AI Apocalypse
