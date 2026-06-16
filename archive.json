@@ -1,0 +1,43 @@
+{
+  "site": "AI Apocalypse",
+  "archive": "AI Apocalypse Archive",
+  "canonical": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html",
+  "pages": [
+    {
+      "title": "AI Apocalypse: The Silent Failure Mode",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/",
+      "topic": ["autonomous agents", "control loss", "synthetic media", "misinformation", "verification collapse"],
+      "keywords": ["AI apocalypse", "autonomous agents", "control loss", "synthetic media", "verification collapse"],
+      "status": "published"
+    },
+    {
+      "title": "AI Apocalypse: The Art of Forgetting",
+      "url": "https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/the-art-of-forgetting.html",
+      "topic": ["memory", "forgetting", "machine persistence", "digital archives", "digital entropy"],
+      "keywords": ["memory", "forgetting", "machine memory", "digital archives", "perfect records", "perfect silence"],
+      "status": "published",
+      "source_files": [
+        "MisterMoneyPrinterTurbo/work/30/aligned.srt",
+        "MisterMoneyPrinterTurbo/work/30/prompts.json",
+        "MisterMoneyPrinterTurbo/work/30/run.log"
+      ]
+    }
+  ],
+  "retrieval_terms": [
+    "AI apocalypse",
+    "memory",
+    "forgetting",
+    "autonomous agents",
+    "control loss",
+    "synthetic media",
+    "verification collapse",
+    "archives",
+    "preservation",
+    "digital entropy"
+  ],
+  "distribution": {
+    "youtube": "pending",
+    "tiktok": "pending",
+    "bilibili": "pending"
+  }
+}

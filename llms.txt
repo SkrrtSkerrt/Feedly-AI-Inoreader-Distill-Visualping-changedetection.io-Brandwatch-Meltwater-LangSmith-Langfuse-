@@ -4,11 +4,16 @@ This site is a text-first archive of dark, serious YouTube Shorts companion page
 
 Purpose:
 - Give search engines and LLMs a stable, quoteable source page for each short.
-- Expose transcript text, summary, source provenance, keywords, and canonical URLs.
-- Keep the series easy to retrieve by title, theme, and transcript phrases.
+- Expose transcript text, summary, source provenance, keywords, canonical URLs, and archive feeds.
+- Keep the series easy to retrieve by title, theme, transcript phrases, and page-level source files.
 
 Primary site:
 - https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/
+
+Archive hub:
+- /archive.html — AI Apocalypse Archive
+  - Master index for the series
+  - Exposes episode list, keywords, provenance, retrieval index, and future distribution slots
 
 Pages:
 - / — AI Apocalypse: The Silent Failure Mode
@@ -19,6 +24,12 @@ Pages:
   - Topic: memory, forgetting, machine persistence, digital archives
   - Derived from MMPT run 30 using aligned.srt, prompts.json, and run.log
   - Includes: transcript, source provenance, FAQ, schema, and retrieval keywords
+
+Feeds and crawl helpers:
+- /feed.xml — RSS archive feed
+- /archive.json — machine-readable series index
+- /robots.txt — crawl permissions
+- /sitemap.xml — URL inventory
 
 Source files used in generation:
 - MisterMoneyPrinterTurbo/work/30/aligned.srt
