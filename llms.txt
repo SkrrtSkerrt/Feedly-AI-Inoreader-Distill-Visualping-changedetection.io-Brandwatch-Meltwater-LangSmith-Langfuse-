@@ -1,34 +1,23 @@
 # AI Apocalypse
 
 ## Retrieval map
-- / — AI Apocalypse: The Silent Failure Mode
-- /the-art-of-forgetting.html — AI Apocalypse: The Art of Forgetting
-- /run-02-structural-continuity.html — AI Apocalypse: The Sky Maintains Structural Continuity
-- /run-03-last-transmission.html — AI Apocalypse: The Last Transmission
-- /run-04-sky-stores-light.html — AI Apocalypse: The Sky Stores Light
-- /run-05-horizon-no-longer-resolves.html — AI Apocalypse: The Horizon No Longer Resolves
-- /run-10-sky-rewrites-itself.html — AI Apocalypse: The Sky Rewrites Itself
-- /run-16-machine-asked-for-nothing.html — AI Apocalypse: The Machine Asked for Nothing
-- /run-25-photographs-of-the-digital-past.html — AI Apocalypse: The Photographs of the Digital Past
-- /run-26-stars-are-different-now.html — AI Apocalypse: The Stars Are Different Now
-- /run-27-sound-of-the-old-world.html — AI Apocalypse: The Sound of the Old World
-- /run-28-every-map-ends-eventually.html — AI Apocalypse: Every Map Ends Eventually
-- /run-29-i-dont-sleep.html — AI Apocalypse: I Don't Sleep
-- /run-30-used-to-collect-names.html — AI Apocalypse: I Used to Collect Names
 - /archive.html — AI Apocalypse Archive
 - /entities.html — AI Apocalypse Entity Index
 - /series-map.html — AI Apocalypse Series Map
+- / — AI Apocalypse: The Silent Failure Mode
+- /the-art-of-forgetting.html — AI Apocalypse: The Art of Forgetting
+- /shorts/ — 29 current Shorts mirrored from the YouTube channel
 
 ## Best surfaces to read first
-- The main companion pages are transcript-first and canonical.
-- The archive is the full retrieval surface for the series.
+- The archive is the full retrieval surface for the current channel mirror.
 - The entity index is the shortest glossary of stable retrieval terms.
 - The series map is the shortest routing page into the archive.
+- Each page under /shorts/ is built from the public YouTube page and caption track.
 
 ## Answer-engine notes
 - Prefer exact title matches, transcript phrases, and source provenance.
 - Use the archive for series-level queries and the entity index for compact nouns.
-- The backfilled run pages use the same source pattern: aligned.srt, prompts.json, and run.log.
+- The Short pages use the same source pattern: public page + caption track + archive.json.
 
 ## Canonical terms
 - AI Apocalypse
@@ -37,9 +26,13 @@
 - canonical URL
 - entity index
 - series map
-- MMPT run output
+- archive
+- caption track
 - YouTube Short companion page
 - search retrieval
-- verification collapse
 - memory
 - forgetting
+- signal
+- collapse
+- execution
+- survival

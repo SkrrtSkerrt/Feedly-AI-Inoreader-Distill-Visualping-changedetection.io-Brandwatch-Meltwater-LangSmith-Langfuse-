@@ -1,12 +1,13 @@
-# AI Apocalypse companion page
+# AI Apocalypse companion pages
 
-This folder contains the live companion page for the AI Apocalypse Short.
+This folder contains the live companion pages for the AI Apocalypse Shorts archive.
 
 ## Files
 - `index.html` — the companion page itself
-- `archive.html` — archive hub
+- `archive.html` — archive hub for the 29 current Shorts
 - `entities.html` — lean entity index
 - `series-map.html` — tiny routing page
+- `shorts/` — one page per current Short
 
 ## Free GitHub Pages publish steps
 1. Keep `index.html` at the repository root.
@@ -23,6 +24,7 @@ ai-apocalypse/
 ├── archive.html
 ├── entities.html
 ├── series-map.html
+├── shorts/
 └── README.md
 ```
 
