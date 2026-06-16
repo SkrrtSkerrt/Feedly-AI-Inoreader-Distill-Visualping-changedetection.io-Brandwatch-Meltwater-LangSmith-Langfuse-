@@ -1,24 +1,17 @@
-# AI Apocalypse GitHub Pages starter
+# AI Apocalypse companion page
 
-This folder contains a ready-to-publish companion page for a YouTube Short.
+This folder contains the live companion page for the AI Apocalypse Short.
 
 ## Files
 - `index.html` — the companion page itself
 
-## What to replace
-Search for these placeholders in `index.html`:
-- `YOUR-USERNAME`
-- `REPLACE_WITH_YOUTUBE_SHORT_ID`
-
 ## Free GitHub Pages publish steps
-1. Create a new public GitHub repository.
-   - Suggested name: `ai-apocalypse`
-2. Put `index.html` in the repository root.
-3. Commit and push the files.
-4. In the repo settings, open Pages.
-5. Choose the branch you pushed to, usually `main` and `/ (root)`.
-6. Wait for GitHub Pages to generate the site.
-7. Visit the published URL shown by GitHub.
+1. Keep `index.html` at the repository root.
+2. Commit and push the page assets.
+3. In repo settings, open Pages.
+4. Choose the branch you pushed to, usually `main` and `/ (root)`.
+5. Wait for GitHub Pages to generate the site.
+6. Visit the published URL shown by GitHub.
 
 ## Recommended repo structure
 ```text
