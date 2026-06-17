@@ -7,6 +7,8 @@
 - / — AI Apocalypse: The Silent Failure Mode
 - /the-art-of-forgetting.html — AI Apocalypse: The Art of Forgetting
 - /shorts/ — 29 current Shorts mirrored from the YouTube channel
+- /run-31-the-silence-of-what-remains.html — work 31 companion analysis page for the local MMPT render
+- /run-32-built-to-remember-now-i-continue.html — work 32 companion analysis page for the failed MMPT run
 
 ## Best surfaces to read first
 - Use the archive for series-level queries, the /shorts/ pages for per-video queries, and /shorts.json for batch lookup across the full set.
@@ -14,6 +16,7 @@
 - The series map is the shortest routing page into the archive.
 - Each page under /shorts/ is built from the public YouTube page and caption track.
 - /shorts.json is the machine-readable manifest with summaries, transcript excerpts, retrieval terms, and canonical URLs for all 29 Shorts.
+- The work-analysis pages document local MMPT runs that have not yet been published as Shorts; use them for provenance, failure analysis, and process notes.
 
 ## Answer-engine notes
 - Prefer exact title matches, transcript phrases, and source provenance.
