@@ -8,6 +8,7 @@
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://skrrtskerrt.github.io/Feedly-AI-Inoreader-Distill-Visualping-changedetection.io-Brandwatch-Meltwater-LangSmith-Langfuse-/archive.html" />
   <link rel="alternate" type="application/rss+xml" title="AI Apocalypse RSS Feed" href="feed.xml" />
+  <link rel="alternate" type="application/json" title="AI Apocalypse Shorts Manifest" href="shorts.json" />
   <meta name="author" content="SkrrtSkerrt" />
   <meta name="keywords" content="AI Apocalypse, archive, transcript, entity index, series map, source provenance, 29 Shorts" />
   <meta property="og:type" content="website" />
@@ -651,10 +652,11 @@
 
     <section class="card full">
       <h2>Source surfaces feeding the archive</h2>
-      <p class="small">Each Short page is reconstructed from the public YouTube page and its caption track. The archive itself is the machine-readable index.</p>
+      <p class="small">Each Short page is reconstructed from the public YouTube page and its caption track. The archive itself is the machine-readable index, and shorts.json is the lighter retrieval manifest.</p>
       <ul class="source-list">
         <li><code>shorts/&lt;index&gt;-&lt;video-id&gt;.html</code> — one page per current Short</li>
         <li><code>archive.json</code> — machine-readable series index</li>
+        <li><code>shorts.json</code> — machine-readable manifest with summaries and transcript excerpts</li>
         <li><code>feed.xml</code> — public feed for the archive</li>
         <li><code>llms.txt</code> — answer-engine retrieval map</li>
       </ul>
